@@ -37,9 +37,9 @@ button:hover {
   background-color: #ec7063;
 }
 
-/* .is-hidden {
+.is-hidden {
   display: none;
-} */
+}
 
 .gallery {
   justify-content: center;
