@@ -28,7 +28,7 @@ async function onFormSubmit(e) {
   GalleryEl.query = e.target.elements.searchQuery.value.trim();
   isShown = 0;
   refs.divEl.innerHTML = '';
-//   GalleryEl.resetPage();
+  GalleryEl.resetPage();
   fetchGallery();
 }
 
